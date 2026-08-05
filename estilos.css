@@ -1,6 +1,14 @@
 body {
 background-color: black;
+}
 
+body {
+    background-color: #080811; /* Fundo escuro estilo cyberpunk */
+    color: #00f3ff;            /* Texto ciano neon */
+}
 
-
+/* Opcional: Adicionar um brilho neon (glow) em títulos ou caixas */
+.neon-box {
+    border: 2px solid #00f3ff;
+    box-shadow: 0 0 15px #00f3ff;
 }
