@@ -6,14 +6,15 @@
     <title>Início - Tech Store</title>
 
     <link rel="shortcut icon" href="robo.png" type="image/x-icon">
+    
+    <!-- Bootstrap CSS corrigido para a versão 5.3.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Seu CSS personalizado por último -->
     <link rel="stylesheet" href="estilos.css">
-
-    <link rel=stylesheet>
-<link rel=stylesheet>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
  
 <body>
@@ -29,176 +30,86 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-
                 <ul class="navbar-nav">
                     <li class="nav-item">
                       <a class="nav-link active" href="#"><i class="bi bi-house"></i> Início </a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="bi bi-laptop"></i> Produtos</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="bi bi-coin"></i> Promoções</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="bi bi-telephone"></i> Contato</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link disabled">Sair</a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </nav>
 
     <div class="container my-5">
-
         <div class="text-center mb-5">
-
-            <h1 class="display-4">Tech Store</h1>
-
-          <p class="lead">
+            <h1 class="display-4 text-white">Tech Store</h1>
+          <p class="lead text-white-50">
           Loja especializada em informática e produtos gamers.<br>
           Desenvolvido por Gustavo e Marcos.</p>
           <a class="btn btn-success btn-lg me-2">Comprar Agora</a>
           <a class="btn btn-outline-primary btn-lg">Saiba Mais</a>
-
         </div>
 
-         <!-- Alertas -->
-           <div class="alert alert-success">
-    Produto cadastrado com sucesso.
-</div>
-
-<div class="alert alert-info">
-    Novas ofertas disponíveis.
-</div>
-
-<div class="alert alert-warning">
-    Últimas unidades em estoque.
-</div>
-
-<div class="alert alert-danger">
-    Produto indisponível.
-</div>
+        <!-- Alertas -->
+        <div class="alert alert-success">Produto cadastrado com sucesso.</div>
+        <div class="alert alert-info">Novas ofertas disponíveis.</div>
+        <div class="alert alert-warning">Últimas unidades em estoque.</div>
+        <div class="alert alert-danger">Produto indisponível.</div>
 
         <div class="alert alert-primary alterarFonte" role="alert">
-  A simple primary alert—check it out!
-</div>
-
-
-
-        <div class="text-center mb-5">
-            <button class="btn btn-outline-primary">Outline Primary</button>
-            <button class="btn btn-outline-success">Outline Success</button>
-            <button class="btn btn-primary">Primary</button>
-            <button class="btn btn-secondary">Secondary</button>
-            <button class="btn btn-success">Success</button>
-            <button class="btn btn-danger">Danger</button>
-            <button class="btn btn-warning">Warning</button>
-            <button class="btn btn-info">Info</button>
-            <button class="btn btn-light">Light</button>
-            <button class="btn btn-dark">Dark</button>
-            <button class="btn btn-link">Link</button>
-
+            A simple primary alert—check it out! (Fonte Silkscreen aplicada aqui)
         </div>
 
+        <!-- Cards dos Produtos -->
         <div class="row g-4 justify-content-center">
-
             <div class="col-12 col-md-4">
                 <div class="card h-100 shadow-sm">
-
                     <img src="Notebook-Gamer-Rog-Strix-G16-G615jpr-Nvidia-RTX-5070-Intel-Core-i9-14900hx-32gb-Ram-1TB-SSD-WINDOWS-11-Home-Tela-16-240hz-LED-Cinza-S5001w_1770929890.webp"
-                        class="card-img-top"
-                        alt="Notebook Gamer">
-
+                        class="card-img-top" alt="Notebook Gamer">
                     <div class="card-body d-flex flex-column">
-
-                        <h5 class="card-title">
-                            Notebook Gamer ROG Strix G16
-                        </h5>
-
-                        <p class="card-text">
-                            Intel Core i9, 32GB RAM, SSD 1TB, RTX 5070 e tela 16" 240Hz.
-                        </p>
-
-                        <a href="#" class="btn btn-primary mt-auto">
-                            Ver Produto
-                        </a>
-
+                        <h5 class="card-title">Notebook Gamer ROG Strix G16</h5>
+                        <p class="card-text">Intel Core i9, 32GB RAM, SSD 1TB, RTX 5070 e tela 16" 240Hz.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Ver Produto</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-12 col-md-4">
-
                 <div class="card h-100 shadow-sm">
-
-                    <img src="Mouse.jpg"
-                        class="card-img-top"
-                        alt="Mouse Gamer">
-
+                    <img src="Mouse.jpg" class="card-img-top" alt="Mouse Gamer">
                     <div class="card-body d-flex flex-column">
-
-                        <h5 class="card-title">
-                            Mouse Gamer
-                        </h5>
-
-                        <p class="card-text">
-                            Sensor de alta precisão, iluminação RGB e design ergonômico.
-                        </p>
-
-                        <a href="#" class="btn btn-primary mt-auto">
-                            Ver Produto
-                        </a>
-
+                        <h5 class="card-title">Mouse Gamer</h5>
+                        <p class="card-text">Sensor de alta precisão, iluminação RGB e design ergonômico.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Ver Produto</a>
                     </div>
-
                 </div>
-
             </div>
 
             <div class="col-12 col-md-4">
-
                 <div class="card h-100 shadow-sm">
-
-                    <img src="Monitor 27.avif"
-                        class="card-img-top"
-                        alt="Monitor">
-
+                    <img src="Monitor 27.avif" class="card-img-top" alt="Monitor">
                     <div class="card-body d-flex flex-column">
-
-                        <h5 class="card-title">
-                            Monitor Gamer 27"
-                        </h5>
-
-                        <p class="card-text">
-                            Alta resolução e taxa de atualização para máxima imersão.
-                        </p>
-
-                        <a href="#" class="btn btn-primary mt-auto">
-                            Ver Produto
-                        </a>
-
+                        <h5 class="card-title">Monitor Gamer 27"</h5>
+                        <p class="card-text">Alta resolução e taxa de atualização para máxima imersão.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Ver Produto</a>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
+    </div>
 
-        <div class="container mt-5">
-
-<div class="mt-5">
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
